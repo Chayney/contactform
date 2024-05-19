@@ -1,0 +1,113 @@
+body {
+    /* font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif; */
+    font-family: 'Simonetta', sans-serif;
+    font-size: 15px;
+    letter-spacing: .05em;
+    color: #706658;
+    background-color: white;
+  }
+  .header {
+    text-align: center;
+    border-bottom: solid 1px #F4F5F7;
+  }
+  
+  .header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+  }
+  
+  .header__logo {
+    color: #706658;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+  }
+  
+  .contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .form__group-content ul {
+    width: auto;
+    float: left;
+    margin: 0 3px 0 0;
+    padding: 0;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  /* 追加 */
+  .form__input--text1 {
+    display: flex;
+    padding: 10px;
+    width: 600px;
+    border-radius: 3px;
+  }
+  
+  .form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: #aaa;
+  }
+  
+  .form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+  }
+  
+  .form__input--text input,
+  .form__input--text select,
+  .form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  
+    appearance: none;
+  }
+  
+  .form__input--text input {
+    height: 40px;
+  }
+  
+  .form__input--textarea textarea {
+    height: 180px;
+  }
+  
+  .form__button {
+    margin-top: 30px;
+  }
+  
+  .form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }

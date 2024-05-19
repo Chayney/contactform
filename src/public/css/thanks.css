@@ -1,0 +1,44 @@
+body {
+    /* font-family: "Montserrat","Helvetica Neue",Arial,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif; */
+    font-family: 'Simonetta', sans-serif;
+    letter-spacing: .05em;
+    color: #706658;
+    background-color: white;
+  }
+
+  .center {
+    position      : relative;             /* 親要素               */
+    overflow      : hidden;               /* はみ出しは非表示     */
+    margin        : 0 auto;               /* BOXの位置(中央寄せ)  */
+    height        : 700px;                /* BOXの高さ            */
+    background    : #fff;                 /* BOXの背景色          */
+  }
+   
+   /* --- 前面文字の定義 -----------------------------------------*/
+  .front {
+    display       : inline-block;         /* インラインブロック化 */
+    position      : absolute;             /* 親要素からの相対位置 */
+    padding       : 20px;                 /* BOX内の余白          */
+    font-weight   : bold;                 /* 太字                 */
+    font-size     : 10pt;                 /* 前景文字のサイズ     */
+    line-height   : 1.3;                  /* 行間隔               */
+    text-align    : center;               /* 文字の中央寄せ       */
+    top           : 300px;                    /* 親要素にサイズにする */
+    left          : 0;
+    right         : 0;
+    bottom        : 0;
+  }
+   
+   /* --- 背景透かし文字の定義 -----------------------------------*/
+  .back {
+    position      : absolute;             /* 親要素からの相対位置 */
+    display       : inline-block;         /* インラインブロック化 */
+    white-space   : nowrap;               /* 折り返ししない       */
+    font-size     : 150pt;                 /* 背景透かし文字サイズ */
+    line-height   : 1;                    /* 行間隔               */
+    font-weight   : bold;                 /* 太字                 */
+    color         : #f8f8f8; /* 背景透かし文字色     */
+    top           : 50%;
+    left          : 50%;
+    transform     : translate(-50%, -50%);
+  }
